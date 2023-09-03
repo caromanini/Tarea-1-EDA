@@ -1,0 +1,191 @@
+ARCHIVO ruts_100.txt
+InsertionSort: (nanosegundos)
+	1. 13103 
+	2. 10429 
+	3. 10349 
+	
+MergeSort: (nanosegundos)
+	1. 20057 
+	2. 20547 
+	3. 20197 
+	
+RadixSort: (nanosegundos)
+	1. 25466 
+	2. 25526 
+	3. 18914 
+	
+QuickSort: (nanosegundos)
+	1. 15207 
+	2. 15350 
+	3. 15991 
+	
+
+ARCHIVO ruts_1000.txt 
+InsertionSort: (microsegundos)
+	1.691 
+	2.1126
+	3.881
+	
+MergeSort: 
+	1.218
+	2.253
+	3.168
+	
+RadixSort:
+	1.243
+	2.283
+	3.262
+	
+QuickSort:
+	1.125
+	2.177
+	3.345
+	
+ARCHIVO ruts_10000.txt 
+InsertionSort: (microsegundos)
+	1.69263
+	2.92266
+	3.123211
+	
+MergeSort: (microsegundos)
+	1.2161
+	2.1937
+	3.2008
+	
+RadixSort: (microsegundos)
+	1.7784
+	2.6065
+	3.2591
+	
+QuickSort: (microsegundos)
+	1. 1490
+	2. 1547
+	3. 1554
+	
+ARCHIVO ruts_50000.txt 
+InsertionSort:(microsegundos)
+	1.1444380
+	2.1848410
+	3.1790500
+	
+MergeSort: (microsegundos)
+	1.23687
+	2.22384
+	3.11340
+	
+RadixSort: (microsegundos)
+	1.17822
+	2.17970
+	3.20933
+	
+QuickSort:
+	1.17580
+	2.17771
+	3.16269
+
+ARCHIVO ruts_100000.txt
+InsertionSort: (microsegundos)
+	1.6270610
+	2.6578000
+	3.6251320
+
+MergeSort: (microsegundos)
+	1.43137
+	2.41565
+	3.43325
+
+RadixSort: (microsegundos)
+	1.33198
+	2.38671
+	3.33140
+
+QuickSort: (microsegundos)
+	1.34445
+	2.36540
+	3.34346
+	
+ARCHIVO ruts_500000.txt
+InsertionSort: (microsegundos)
+	1.148482000
+	2.155093000
+	3.148513000
+
+MergeSort: (microsegundos)
+	1.247919
+	2.252581 
+	3.253492
+
+RadixSort: (microsegundos)
+	1.185409
+	2.191734
+	3.185104
+
+QuickSort: (microsegundos)
+	1.208166
+	2.207660
+	3.203459
+
+ARCHIVO ruts_1000000.txt
+InsertionSort:
+	1.69533400
+	2.
+	3.
+
+MergeSort: (microsegundos)
+	1.515759
+	2.522120
+	3.524656
+
+RadixSort: (microsegundos)
+	1.369925
+	2.369054
+	3.378040
+
+QuickSort: (microsegundos)
+	1.434778
+	2.431561
+	3.429863
+	
+ARCHIVO ruts_10000000.txt
+InsertionSort:
+	1.
+	2.
+	3.
+
+MergeSort:
+	1.3416820
+	2.3380610
+	3.3335860
+
+RadixSort:
+	1.
+	2.
+	3.
+
+QuickSort:
+	1.3022320
+	2.2778330
+	3.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
