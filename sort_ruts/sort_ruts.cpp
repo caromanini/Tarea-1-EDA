@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[]){
 	std::string fileName = argv[1];
-	std::ifstream file("datos/" + fileName);
+	std::ifstream file("../datos/" + fileName);
 
 	int array_size = 0;
 	int value;
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
 		array_size++; 
 	}
 	file.close();
-	file.open("datos/"+fileName);
+	file.open("../datos/"+fileName);
 
 	int* A = new int[array_size];
 
@@ -52,7 +52,7 @@ int main(int argc, char *argv[]){
 		//std::cout<<"Tiempo de QuickSort (microsegundos): "<<time<<std::endl;
 	}
 
-	std::ofstream outputFile(fileName + ".sorted");
+	std::ofstream outputFile("../" + fileName + ".sorted");
 	if(outputFile.is_open()){
 		for(int i = 0; i<array_size; i++){
 			outputFile << A[i] << "\n";
