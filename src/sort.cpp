@@ -113,7 +113,7 @@ namespace sort{
 	int getMax(int* A, int n){
 		int max = A[0];
 
-		for(int i=0; i<n; i++){
+		for(int i=1; i<n; i++){
 			if(A[i] > max){
 				max = A[i];
 			}
@@ -122,8 +122,9 @@ namespace sort{
 	}
 
 	void countSort(int* A, int n, int exp){
-		int output[n];
 		int i, count[10] = {0};
+
+		int* output = new int[n];
 
 		for(i=0; i<n; i++){
 			count[(A[i]/exp)%10]++;
@@ -140,7 +141,8 @@ namespace sort{
 
 		for(i=0; i<n; i++){
 			A[i]=output[i];
-		}
+		}		
+		delete[] output;
 	}
 
 	void radixSort(int* A, int n){

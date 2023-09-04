@@ -30,26 +30,26 @@ int main(int argc, char *argv[]){
 
 		double time = sort::get_time(sort::insertionSort, A, array_size);
 	
-		//std::cout<<"Tiempo de insertionSort (microsegundos): "<<time<<std::endl;
+		std::cout<<"Tiempo de insertionSort (microsegundos): "<<time<<std::endl;
 	}
 	else if(*argv[2] == 'M'){
 		std::cout<<"Ordenado con: MergeSort"<<std::endl;
 		double time = sort::get_time(sort::mergeSortWrapper, A, array_size);
 
-		//std::cout<<"Tiempo de MergeSort: "<<time<<std::endl;
+		std::cout<<"Tiempo de MergeSort (microsegundos): "<<time<<std::endl;
 	}
 	else if(*argv[2] == 'R'){
 		std::cout<<"Ordenado con: RadixSort"<<std::endl;
 		double time = sort::get_time(sort::radixSort, A, array_size);
 
-		//std::cout<<"Tiempo de radixSort: "<<time<<std::endl;
+		std::cout<<"Tiempo de radixSort (microsegundos): "<<time<<std::endl;
 	}
 	else if(*argv[2] == 'Q'){
 		std::cout<<"Ordenado con: QuickSort"<<std::endl;
 		
 		double time = sort::get_time(sort::quickSort, A, array_size);
 
-		//std::cout<<"Tiempo de QuickSort (microsegundos): "<<time<<std::endl;
+		std::cout<<"Tiempo de QuickSort (microsegundos): "<<time<<std::endl;
 	}
 
 	std::ofstream outputFile("../" + fileName + ".sorted");
@@ -62,5 +62,7 @@ int main(int argc, char *argv[]){
 	}
 
 	delete[] A;
+	A = nullptr;
+	
 	return 0;
 }

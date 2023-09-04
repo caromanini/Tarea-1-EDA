@@ -25,7 +25,7 @@ namespace sort{
 	}
 
 	void swap(int* A, int i, int j){
-		float aux = A[i];
+		int aux = A[i];
 		A[i] = A[j];
 		A[j] = aux;
 	}

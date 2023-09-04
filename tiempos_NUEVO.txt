@@ -1,0 +1,209 @@
+ARCHIVO ruts_100.txt (NANOSEGUNDOS)
+InsertionSort:
+    1.7284
+    2.12814
+    3.7274
+
+MergeSort:
+    1.14558
+    2.14597
+    3.14998
+
+RadixSort:
+    1.18995
+    2.18976
+    3.18916
+
+QuickSort:
+    1.11792
+    2.11070
+    3.11372
+
+ARCHIVO ruts_1000.txt (NANOSEGUNDOS)
+InsertionSort:
+    1.584333
+    2.585555
+    3.583229
+
+MergeSort:
+    1.160565
+    2.158704
+    3.174255
+
+RadixSort:
+    1.175276
+    2.186055
+    3.175097
+
+QuickSort:
+    1.131187
+    2.129651
+    3.160486
+
+ARCHIVO ruts_10000.txt (MICROSEGUNDOS)
+InsertionSort:
+    1.50948
+    2.49001
+    3.51037
+
+MergeSort:
+    1.2021
+    2.1988
+    3.2207
+
+RadixSort:
+    1.1888
+    2.1881
+    3.1821
+
+QuickSort:
+    1.1661
+    2.1672
+    3.1660
+
+ARCHIVO ruts_50000.txt (MICROSEGUNDOS)
+InsertionSort:
+    1.1213490
+    2.1213020
+    3.1207630
+
+MergeSort:
+    1.9178
+    2.9276
+    3.9198
+
+RadixSort:
+    1.7678
+    2.8187
+    3.7634
+
+QuickSort:
+    1.7825
+    2.7865
+    3.7985
+
+ARCHIVO ruts_100000.txt (MICROSEGUNDOS)
+InsertionSort:
+    1.4857160
+    2.4898610
+    3.4859360
+
+MergeSort:
+    1.19250
+    2.20426
+    3.19269
+
+RadixSort:
+    1.15787
+    2.17542
+    3.15502
+
+QuickSort:
+    1.16341
+    2.16956
+    3.16255
+
+ARCHIVO ruts_500000.txt (MICROSEGUNDOS)
+InsertionSort:
+    1.122615000
+    2.121676000
+    3.121595000
+
+MergeSort:
+    1.106040
+    2.106823
+    3.106730
+
+RadixSort:
+    1.79083
+    2.80300
+    3.80118
+
+QuickSort:
+    1.89470
+    2.91620
+    3.89550
+
+ARCHIVO ruts_1000000.txt (MICROSEGUNDOS)
+InsertionSort:
+    1.506618000
+    2.
+    3.
+
+MergeSort:
+    1.220917
+    2.221145
+    3.218952
+
+RadixSort:
+    1.159347
+    2.159785
+    3.156640
+
+QuickSort:
+    1.186648
+    2.186660
+    3.184701
+
+ARCHIVO ruts_10000000.txt (MICROSEGUNDOS)
+InsertionSort:
+    1.50673500000
+    2.
+    3.
+
+MergeSort:
+    1.
+    2.
+    3.
+
+RadixSort:
+    1.
+    2.
+    3.
+
+QuickSort:
+    1.2080460
+    2.2076700
+    3.2062440
+
+ARCHIVO ruts_50000000.txt
+InsertionSort:
+    1.
+    2.
+    3.
+
+MergeSort:
+    1.
+    2.
+    3.
+
+RadixSort:
+    1.
+    2.
+    3.
+
+QuickSort:
+    1.
+    2.
+    3.
+
+ARCHIVO ruts_100000000.txt
+InsertionSort:
+    1.
+    2.
+    3.
+
+MergeSort:
+    1.
+    2.
+    3.
+
+RadixSort:
+    1.
+    2.
+    3.
+
+QuickSort:
+    1.
+    2.
+    3.
