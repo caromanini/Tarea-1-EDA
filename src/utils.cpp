@@ -14,14 +14,7 @@ namespace sort{
 
 		f(A,n);
 		auto end = std::chrono::steady_clock::now();
-		return std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
-	}
-
-	void printArray(int* A, int n){
-		for (int i = 0; i < n; i++){
-			std::cout<<A[i]<<" ";
-		}
-		std::cout<<std::endl;
+		return std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
 	}
 
 	void swap(int* A, int i, int j){
