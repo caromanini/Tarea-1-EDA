@@ -1,7 +1,7 @@
 # Instrucciones de ejecución
 Para utilizar el programa, se deben seguir los siguientes pasos: 
 
-1. En el directorio padre, crear otro directorio llamado build con el comando:
+1. En el directorio "Tarea-1-EDA-main", crear otro directorio llamado build con el comando:
 
 ```bash 
 mkdir build
