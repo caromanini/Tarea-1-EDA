@@ -14,7 +14,7 @@ namespace sort{
 
 		f(A,n);
 		auto end = std::chrono::steady_clock::now();
-		return std::chrono::duration_cast<std::chrono::seconds>(end - start).count();
+		return std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
 	}
 
 	void swap(int* A, int i, int j){

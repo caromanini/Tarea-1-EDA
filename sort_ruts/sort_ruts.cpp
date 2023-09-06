@@ -27,7 +27,6 @@ int main(int argc, char *argv[]){
 
 	if(*argv[2] == 'I'){
 		std::cout<<"Ordenado con: InsertionSort"<<std::endl;
-
 		double time = sort::get_time(sort::insertionSort, A, array_size);
 	
 		std::cout<<"Tiempo de insertionSort (microsegundos): "<<time<<std::endl;
@@ -46,7 +45,6 @@ int main(int argc, char *argv[]){
 	}
 	else if(*argv[2] == 'Q'){
 		std::cout<<"Ordenado con: QuickSort"<<std::endl;
-		
 		double time = sort::get_time(sort::quickSort, A, array_size);
 
 		std::cout<<"Tiempo de QuickSort (microsegundos): "<<time<<std::endl;
